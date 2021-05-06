@@ -28,8 +28,4 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.WheelManager.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.WheelManager.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
 </resources>
