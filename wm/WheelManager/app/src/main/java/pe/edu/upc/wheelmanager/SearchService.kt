@@ -1,4 +1,4 @@
-package pe.edu.upc.wheelmanager.FragmentsRL
+package pe.edu.upc.wheelmanager
 
 import android.os.Bundle
 import android.view.LayoutInflater
