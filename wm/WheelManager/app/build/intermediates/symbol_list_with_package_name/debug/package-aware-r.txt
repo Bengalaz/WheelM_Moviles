@@ -1794,6 +1794,7 @@ id benefits
 id blocking
 id bottom
 id bounce
+id btSearch
 id button
 id button2
 id button3
@@ -1870,6 +1871,7 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id etSearch
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2029,6 +2031,8 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvProduct
+id rvService
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2049,6 +2053,8 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id searchproduct
+id searchservice
 id select_dialog_listview
 id selected
 id selection_type
@@ -2102,6 +2108,7 @@ id test_radiobutton_app_button_tint
 id text
 id text2
 id textEnd
+id textInputLayout
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -2242,6 +2249,8 @@ layout fragment_about
 layout fragment_benefits
 layout fragment_home
 layout fragment_revolutionize
+layout fragment_searchproduct
+layout fragment_searchservice
 layout fragment_subscription_plans
 layout material_chip_input_combo
 layout material_clock_display
@@ -2301,6 +2310,8 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout recycler_view_item
+layout recycler_view_service
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -2354,6 +2365,7 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string bt_search
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2366,6 +2378,8 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
+string hint_searchproduct
+string hint_searchservice
 string icon_content_description
 string item_view_role_description
 string material_clock_display_divider

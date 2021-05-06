@@ -57,6 +57,15 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
                 setToolbarTitle("WM")
                 changeFragment(SubscriptionPlans())
             }
+
+            R.id.searchproduct ->{
+                setToolbarTitle("WM")
+                changeFragment(SearchProduct())
+            }
+            R.id.searchservice ->{
+                setToolbarTitle("WM")
+                changeFragment(SearchService())
+            }
         }
         return true
     }

@@ -16,4 +16,10 @@
     <item
         android:id="@+id/subscription"
         android:title="Planes" />
+    <item
+        android:id="@+id/searchproduct"
+        android:title="Buscar Producto" />
+    <item
+        android:id="@+id/searchservice"
+        android:title="Buscar Servicio" />
 </menu>
