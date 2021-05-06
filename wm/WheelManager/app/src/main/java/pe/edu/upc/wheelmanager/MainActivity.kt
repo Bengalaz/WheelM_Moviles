@@ -59,8 +59,12 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
             }
 
             R.id.searchproduct ->{
-                setToolbarTitle("Search Product")
+                setToolbarTitle("WM")
                 changeFragment(SearchProduct())
+            }
+            R.id.searchservice ->{
+                setToolbarTitle("WM")
+                changeFragment(SearchService())
             }
         }
         return true
