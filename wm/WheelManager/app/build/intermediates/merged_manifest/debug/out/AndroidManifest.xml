@@ -18,8 +18,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.WheelManager" >
+        <activity android:name="pe.edu.upc.wheelmanager.ui.ProductActivity" />
         <activity
-            android:name="pe.edu.upc.wheelmanager.MainActivity"
+            android:name="pe.edu.upc.wheelmanager.ui.MainActivity"
             android:theme="@style/Theme.WheelManager.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

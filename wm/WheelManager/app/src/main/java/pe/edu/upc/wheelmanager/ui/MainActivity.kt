@@ -1,23 +1,35 @@
-package pe.edu.upc.wheelmanager
+package pe.edu.upc.wheelmanager.ui
 
+import android.app.Activity
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Button
+import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
 import pe.edu.upc.wheelmanager.FragmentsRL.*
+import pe.edu.upc.wheelmanager.R
+import pe.edu.upc.wheelmanager.models.Product
+import pe.edu.upc.wheelmanager.adapters.ProductAdapter
 
 class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelectedListener {
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
-        val toggle = ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.open,R.string.close)
+        val toggle = ActionBarDrawerToggle(this,drawerLayout,toolbar, R.string.open, R.string.close)
         toggle.isDrawerIndicatorEnabled = true
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
@@ -70,4 +82,5 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
         //fragment container , and fragment itself
         fragment.replace(R.id.fragment_container,frag).commit()
     }
+
 }
