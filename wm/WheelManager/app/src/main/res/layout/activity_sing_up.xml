@@ -7,6 +7,16 @@
     tools:context=".SingUp">
 
     <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backgroundsingup" />
+
+    <ImageView
         android:id="@+id/imageView14"
         android:layout_width="303dp"
         android:layout_height="580dp"
@@ -129,6 +139,7 @@
         android:id="@+id/tv_datePicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
         android:text="Selecciona tu fecha de nacimiento"
         android:textColor="#FFFDFD"
         android:textSize="15sp"

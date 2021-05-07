@@ -3,17 +3,22 @@
 
     <item
         android:id="@+id/home"
+        android:icon="@drawable/ic_home"
         android:title="Inicio" />
     <item
         android:id="@+id/revolutionize"
+        android:icon="@drawable/ic_stars"
         android:title="Revoluciona" />
     <item
         android:id="@+id/benefits"
+        android:icon="@drawable/ic_group"
         android:title="Beneficios" />
     <item
         android:id="@+id/about"
+        android:icon="@drawable/ic_bike"
         android:title="Sobre Nosotros" />
     <item
         android:id="@+id/subscription"
+        android:icon="@drawable/ic_double"
         android:title="Planes" />
 </menu>

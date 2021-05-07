@@ -4,8 +4,8 @@
     <string name="close">close</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="hint_email">Ingresa su correo</string>
-    <string name="hint_name">Ingresa su nombre</string>
+    <string name="hint_email">Ingrese su correo</string>
+    <string name="hint_name">Ingrese su nombre</string>
     <string name="hint_password">Ingrese su contraseña</string>
 
 </resources>
