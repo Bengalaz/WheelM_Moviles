@@ -1,5 +1,6 @@
 package pe.edu.upc.wheelmanager
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -24,8 +25,18 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
 
         nav_menu.setNavigationItemSelectedListener(this)
 
-        setToolbarTitle("WM")
+        setToolbarTitle(" ")
         changeFragment(Home())
+
+        btnSignup.setOnClickListener{
+            val intent = Intent(this,SingUp::class.java)
+            startActivity(intent)
+        }
+
+        btnSingin.setOnClickListener{
+            val intent = Intent(this,SignIn::class.java)
+            startActivity(intent)
+        }
 
     }
 
@@ -34,27 +45,27 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
 
         when(item.itemId){
             R.id.home ->{
-                setToolbarTitle("WM")
+                setToolbarTitle(" ")
                 changeFragment(Home())
             }
 
             R.id.revolutionize ->{
-                setToolbarTitle("WM")
+                setToolbarTitle(" ")
                 changeFragment(revolutionize())
             }
 
             R.id.benefits ->{
-                setToolbarTitle("WM")
+                setToolbarTitle(" ")
                 changeFragment(Benefits())
             }
 
             R.id.about ->{
-                setToolbarTitle("WM")
+                setToolbarTitle(" ")
                 changeFragment(About())
             }
 
             R.id.subscription ->{
-                setToolbarTitle("WM")
+                setToolbarTitle(" ")
                 changeFragment(SubscriptionPlans())
             }
         }

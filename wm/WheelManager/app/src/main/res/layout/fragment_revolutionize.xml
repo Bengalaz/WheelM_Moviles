@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:text="Quiero ser premium"
-        app:backgroundTint="#6E6B6B"
+        app:backgroundTint="#FFAD42"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

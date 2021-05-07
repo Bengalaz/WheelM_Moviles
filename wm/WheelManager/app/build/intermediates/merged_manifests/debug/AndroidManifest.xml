@@ -18,6 +18,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.WheelManager" >
+        <activity android:name="pe.edu.upc.wheelmanager.SignIn" />
+        <activity android:name="pe.edu.upc.wheelmanager.SingUp" />
         <activity
             android:name="pe.edu.upc.wheelmanager.MainActivity"
             android:theme="@style/Theme.WheelManager.NoActionBar" >
