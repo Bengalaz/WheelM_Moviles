@@ -35,7 +35,7 @@
         android:layout_marginEnd="10dp"
         android:text="Iniciar sesión"
         android:textSize="10sp"
-        app:backgroundTint="#E91E63"
+        app:backgroundTint="#018786"
         app:layout_constraintEnd_toStartOf="@+id/button5"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -46,7 +46,7 @@
         android:layout_marginEnd="5dp"
         android:text="Registrarse"
         android:textSize="10sp"
-        app:backgroundTint="#E91E63"
+        app:backgroundTint="#018786"
         app:layout_constraintEnd_toEndOf="@+id/toolbar"
         app:layout_constraintTop_toTopOf="parent" />
 
