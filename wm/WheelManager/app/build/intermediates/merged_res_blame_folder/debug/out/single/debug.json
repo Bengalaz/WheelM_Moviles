@@ -360,6 +360,10 @@
         "source": "D:\\Wheel_ManagerTP\\WheelM_Moviles\\wm\\WheelManager\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_group.png"
     },
     {
+        "merged": "D:\\Wheel_ManagerTP\\WheelM_Moviles\\wm\\WheelManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_singinbackground.jpg.flat",
+        "source": "D:\\Wheel_ManagerTP\\WheelM_Moviles\\wm\\WheelManager\\app\\src\\main\\res\\drawable\\singinbackground.jpg"
+    },
+    {
         "merged": "D:\\Wheel_ManagerTP\\WheelM_Moviles\\wm\\WheelManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_bike.xml.flat",
         "source": "D:\\Wheel_ManagerTP\\WheelM_Moviles\\wm\\WheelManager\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_bike.xml"
     },

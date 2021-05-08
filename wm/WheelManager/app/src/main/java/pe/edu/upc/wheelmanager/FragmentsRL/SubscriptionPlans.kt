@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import pe.edu.upc.wheelmanager.R
 
 class SubscriptionPlans : Fragment() {
+
       override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

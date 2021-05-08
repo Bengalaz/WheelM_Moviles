@@ -3,10 +3,14 @@ package pe.edu.upc.wheelmanager
 import android.app.DatePickerDialog
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ArrayAdapter
+import android.widget.Spinner
 import android.widget.TextView
 import java.util.*
 
 class SingUp : AppCompatActivity() {
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sing_up)
@@ -25,5 +29,15 @@ class SingUp : AppCompatActivity() {
             },myYear,myMonth,day)
             datePickerDialog.show()
         }
+
+        //Spinner
+        val spinner = findViewById<Spinner>(R.id.spnElements)
+        val list = resources.getStringArray(R.array.genders)
+        val adapter = ArrayAdapter(this,android.R.layout.simple_spinner_item,list)
+        spinner.adapter = adapter
+
+
+
+
     }
 }

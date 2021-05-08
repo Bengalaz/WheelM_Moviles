@@ -50,6 +50,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array genders
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1710,6 +1711,7 @@ drawable orangesingup
 drawable outline_groups_black_24dp
 drawable park_bike02
 drawable planesbackground02
+drawable singinbackground
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1925,20 +1927,13 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id imageView10
 id imageView11
 id imageView12
 id imageView13
 id imageView14
-id imageView15
-id imageView16
 id imageView2
 id imageView3
-id imageView4
-id imageView5
-id imageView6
-id imageView7
 id imageView8
 id imageView9
 id info
@@ -2092,6 +2087,7 @@ id snapMargins
 id spacer
 id spline
 id split_action_bar
+id spnElements
 id spread
 id spread_inside
 id square
@@ -2147,6 +2143,7 @@ id textView16
 id textView17
 id textView18
 id textView19
+id textView2
 id textView20
 id textView21
 id textView22

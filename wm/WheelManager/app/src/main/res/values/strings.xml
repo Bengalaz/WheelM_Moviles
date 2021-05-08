@@ -7,5 +7,8 @@
     <string name="hint_email">Ingrese su correo</string>
     <string name="hint_name">Ingrese su nombre</string>
     <string name="hint_password">Ingrese su contraseña</string>
-
+    <string-array name="genders">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
 </resources>
