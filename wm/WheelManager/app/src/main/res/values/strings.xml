@@ -8,4 +8,8 @@
     <string name="hint_searchproduct">Enter Product name</string>
     <string name="bt_search">Search</string>
     <string name="hint_searchservice">Enter Service name</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="bt_save">Save</string>
+    <string name="hint_name">Enter Service</string>
+    <string name="bt_add">Add</string>
 </resources>
