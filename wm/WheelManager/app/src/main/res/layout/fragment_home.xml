@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="170dp"
-        android:text="TODO SOBRE VEHICULOS MENORES"
+        android:text="TODO SOBRE TU VEHICULO"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -39,9 +39,9 @@
         android:layout_marginTop="30dp"
         android:layout_marginBottom="250dp"
         android:width="300dp"
-        android:text="Wheel Manager es una herramienta
-de software que permite la conexión entre los clientes y las mejores
-empresas de vehículos menores."
+        android:text="Bienvenido, WheelManager te mostrata todo lo que necesitas saber sobre tu vehículo accesorios, piezas
+ servicios, trucos y mucho más.Adémas, podras conectarte con las mejores
+empresas de vehículos menores de tu ciudad."
         android:textColor="#F8F6F2"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
